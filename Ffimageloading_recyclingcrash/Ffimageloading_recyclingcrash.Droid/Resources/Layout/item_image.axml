@@ -7,7 +7,7 @@
 
 	<ffimageloading.cross.MvxImageLoadingView
     android:layout_width="match_parent"
-    android:layout_height="200dp"
-		local:MvxBind="DataLocationUri Url; DownSampleSize DownSampleSize"
+    android:layout_height="100dp"
+		local:MvxBind="Transformations Transformations; DownSampleSize DownSampleSize; DataLocationUri Url"
 		/>
 </LinearLayout>

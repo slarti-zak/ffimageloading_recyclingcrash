@@ -17,7 +17,7 @@ namespace Ffimageloading_recyclingcrash.Core.ViewModels
 			Images = new List<Image>();
 			for (int i = 0; i < 999; i++)
 			{
-				Images.Add(new Image("https://dummyimage.com/1024/" + i));
+				Images.Add(new Image($"https://dummyimage.com/{512 + i}/" + i));
 			}
 		}
 	}

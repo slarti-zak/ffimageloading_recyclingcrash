@@ -48,6 +48,10 @@
       <HintPath>..\packages\Xamarin.FFImageLoading.2.2.9\lib\MonoAndroid10\FFImageLoading.Platform.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="FFImageLoading.Transformations, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.FFImageLoading.Transformations.2.2.9\lib\MonoAndroid10\FFImageLoading.Transformations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Android.Export" />
     <Reference Include="mscorlib" />
